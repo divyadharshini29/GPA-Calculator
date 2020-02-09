@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <Spinner
+            android:id="@+id/hr4"
+            android:layout_width="80dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/cr4"
+            app:layout_constraintStart_toEndOf="@+id/c4"
+            app:layout_constraintTop_toBottomOf="@+id/hr3"
+            tools:layout_editor_absoluteX="221dp" />
+
+        <Spinner
+            android:id="@+id/hr5"
+            android:layout_width="80dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/cr5"
+            app:layout_constraintStart_toEndOf="@+id/c5"
+            app:layout_constraintTop_toBottomOf="@+id/hr4"
+            tools:layout_marginStart="20dp" />
+
+        <EditText
+            android:id="@+id/c1"
+            android:layout_width="180dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="104dp"
+
+            android:hint="Subject"
+            android:inputType="text"
+            app:layout_constraintEnd_toStartOf="@+id/hr1"
+            app:layout_constraintHorizontal_bias="0.283"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/c2"
+            android:layout_width="180dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Subject"
+            android:inputType="text"
+            app:layout_constraintEnd_toStartOf="@+id/hr2"
+            app:layout_constraintHorizontal_bias="0.283"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c1" />
+
+        <EditText
+            android:id="@+id/c3"
+            android:layout_width="180dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+
+            android:hint="Subject"
+            android:inputType="text"
+            app:layout_constraintEnd_toStartOf="@+id/hr3"
+            app:layout_constraintHorizontal_bias="0.283"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c2" />
+
+        <EditText
+            android:id="@+id/c4"
+            android:layout_width="180dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+
+            android:hint="Subject"
+            android:inputType="text"
+            app:layout_constraintEnd_toStartOf="@+id/hr4"
+            app:layout_constraintHorizontal_bias="0.283"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c3" />
+
+        <EditText
+            android:id="@+id/c5"
+            android:layout_width="180dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+
+            android:hint="Subject"
+            android:inputType="text"
+            app:layout_constraintEnd_toStartOf="@+id/hr5"
+            app:layout_constraintHorizontal_bias="0.283"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c4" />
+
+        <Spinner
+            android:id="@+id/hr1"
+            android:layout_width="80dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="96dp"
+            app:layout_constraintEnd_toStartOf="@+id/cr1"
+            app:layout_constraintStart_toEndOf="@+id/c1"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="221dp" />
+
+        <Spinner
+            android:id="@+id/hr2"
+            android:layout_width="80dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/cr2"
+            app:layout_constraintStart_toEndOf="@+id/c2"
+            app:layout_constraintTop_toBottomOf="@+id/hr1"
+            tools:layout_editor_absoluteX="221dp" />
+
+        <Spinner
+            android:id="@+id/hr3"
+            android:layout_width="80dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/cr3"
+            app:layout_constraintStart_toEndOf="@+id/c3"
+
+            app:layout_constraintTop_toBottomOf="@+id/hr2"
+            tools:layout_editor_absoluteX="221dp" />
+
+        <Spinner
+            android:id="@+id/cr1"
+            android:layout_width="80dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="96dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toEndOf="@+id/hr1"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/cr3"
+            android:layout_width="80dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/hr3"
+            app:layout_constraintTop_toBottomOf="@+id/cr2" />
+
+        <Spinner
+            android:id="@+id/cr4"
+            android:layout_width="80dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/hr4"
+            app:layout_constraintTop_toBottomOf="@+id/cr3" />
+
+        <Spinner
+            android:id="@+id/cr2"
+            android:layout_width="80dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/hr2"
+            app:layout_constraintTop_toBottomOf="@+id/cr1" />
+
+        <Spinner
+            android:id="@+id/cr5"
+            android:layout_width="80dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/hr5"
+            app:layout_constraintTop_toBottomOf="@+id/cr4" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="362dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="28dp"
+            android:enabled="false"
+            android:fontFamily="monospace"
+            android:text="Please enter subject,credit hours and grade to calculate GPA"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/c1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.479"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/compute"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="calculate"
+            android:text="Compute GPA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/totalLbl"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c5" />
+
+        <TextView
+            android:id="@+id/totalLbl"
+            android:layout_width="178dp"
+            android:layout_height="44dp"
+            android:background="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHighlight="@color/colorAccent"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
